@@ -17,3 +17,30 @@ s = '"Fedora" or "Manjaro", that is the question (зэт из зэ квэсчи�
 print(s)
 s = 'Look at my big and beautiful laptop, he is very big, like my di...'   # like my distribution of Fedora Linux he-he-he-he
 print(a, 'text', b, s)
+
+t = 'bigStan'
+print('{} - {} - {}'.format(a, b, t))   #\
+                                        # | тоже самое
+print(f'{a} - {b} - {t}')               #/
+
+print('{2} - {1} - {0}'.format(a, b, t))            #\
+                                                    # | число в фигурных скобках означает индекс задействуемой переменной из круглых скобок после format
+print('{2} - {1} - {0} - {2} - {0}'.format(a, b, t))#/
+
+f = True
+print(f)
+f = False
+print(f)
+
+list = [1, 2, 3]    # в Пайтоне отсутствуют массивы, но их заменяют списки
+print(list)
+list = ['1', '2', '3', 'smotri']
+print(list)
+list = [1, 2, 3, 'smotri', '4']     # Python - язык с динамической типизацией, то есть мы можем миксовать различные типы в одном списке
+print(list)
+
+l = 'love'
+b = True
+list = ['Nasha', l, 'eto', b]
+print(list)
+
