@@ -45,6 +45,7 @@
 # print(list)
 
 
+
 #Ввод и вывод данных
 #input, print
 
@@ -73,6 +74,7 @@
 # print('Введите b');
 # b = float(input())
 # print(a, '+', b, '=', a+b)
+
 
 
 #Арифметические операции
@@ -106,4 +108,65 @@
 # a *= 5      #/
 
 
+
 #Логические операции
+# >, >=, <, <=, ==, !=
+# not, and, or - не путать с &, |, ^
+# is, is not, in, not in
+# gen
+
+# a = 1 > 4
+# print(a)
+# a = 1<4
+# print(a)
+# a = a
+# print(a)
+# a == a
+# print(a)
+
+# a = 5+2
+# b = 10-3
+# print(a==b)
+
+# a = 1 < 4 and 5 > 2
+# print(a)
+# a = 1 == 2
+# print(a)
+# a = 1 != 2
+# print(a)
+
+# a = 'string'
+# b = 'string'
+# c = 'thong'
+# print(a == b)
+# print(a == c)
+# print(a==b==c)
+
+# a = [1,2]
+# b = [1,2]
+# c = [1,2,3]
+# d = [3,2,1]
+# print(a == b)
+# print(a == c)
+# print(a == b == c)
+# print(c == d)
+
+# a = 1 < 3 < 5 < 10
+# print(a)
+
+# func = 1
+# T = 4
+# x = 123
+# print(func<T<x)
+# print(func<T>=x)
+
+f = 1 > 2 or 4 < 6
+print(f)
+f = [1,2,3,4]
+print(f)
+print(2 in f)
+print(not 2 in f)
+is_odd = f[0] % 2 == 0  #\  f[index]
+print(is_odd)           # | false потому что 1 - число не чётное
+
+
