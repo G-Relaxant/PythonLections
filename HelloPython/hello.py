@@ -1,4 +1,10 @@
-# Types of data and Variable
+
+#help(int)   # help - встроенный помощник-справочник
+
+
+
+#  ТИПЫ ДАННЫХ И ПЕРЕМЕННЫЕ
+
 # int, float, boolean, str, list, None
 
 # a = 123
@@ -46,7 +52,8 @@
 
 
 
-#Ввод и вывод данных
+#  ВВОД И ВЫВОД ДАННЫХ
+
 #input, print
 
 # print('Введите a');
@@ -77,7 +84,8 @@
 
 
 
-#Арифметические операции
+#  АРИФМЕТИЧЕСКИЕ ОПЕРАЦИИ
+
 # +, -, *, /, %, //, **
 # унарные операции
 # (), сокращённые операции
@@ -109,7 +117,8 @@
 
 
 
-#Логические операции
+#  ЛОГИЧЕСКИЕ ОПЕРАЦИИ
+
 # >, >=, <, <=, ==, !=
 # not, and, or - не путать с &, |, ^
 # is, is not, in, not in
@@ -160,13 +169,118 @@
 # print(func<T<x)
 # print(func<T>=x)
 
-f = 1 > 2 or 4 < 6
-print(f)
-f = [1,2,3,4]
-print(f)
-print(2 in f)
-print(not 2 in f)
-is_odd = f[0] % 2 == 0  #\  f[index]
-print(is_odd)           # | false потому что 1 - число не чётное
+# f = 1 > 2 or 4 < 6
+# print(f)
+# f = [1,2,3,4]
+# print(f)
+# print(2 in f)
+# print(not 2 in f)
+# is_odd = f[0] % 2 == 0  #\  f[index]
+# print(is_odd)           # | false потому что 1 - число не чётное
 
 
+
+#  УПРАВЛЯЮЩИЕ КОНСТРУКЦИИ
+
+# if, if-else, if-elif-else, while, while-else, for-in
+
+# a = int(input('a = '))
+# b = int(input('b = '))
+# if a > b:
+#     print(a)
+# else:
+#     print(b)
+
+# username = input('Input name: ')
+# if username == 'Masha':
+#     print('Ura, eto zhe MASHA!')
+# elif username == 'Marina':
+#     print('Ya tak zhdala Vas, Marina!')
+# elif username == 'Ilnar':
+#     print('Ilnar - top)')
+# else:
+#     print('Privet, ', username)
+
+original = 23
+inverted = 0
+# while original != 0:
+#     inverted = inverted * 10 + (original % 10)
+#     original //= 10
+# print(inverted)
+
+# while original != 0:
+#     inverted = inverted * 10 + (original % 10)
+#     original //= 10
+#     print(original)
+# else:
+#     print('Pozhaluy')
+#     print('hvatit )')
+# print(inverted)
+
+# for i in 1,2,3,4,5:
+#     print(i**2)
+
+# list = [1,2,3,4,5]
+# for i in list:
+#     print(i**2)
+
+# r = range(10)
+# for i in r:
+#     print(i)
+
+# for i in range(1, 5):
+#     print(i)
+
+# for i in range(1, 16, 2):
+#     print(i)
+
+# for i in 'John Varvatos Artisan':
+#     print(i)
+
+
+
+#  РАБОТА СО СТРОКАМИ
+
+# text = 'свежие, цитрусовые, фужерные, древесные, сладкие'
+# print(text)
+
+# ran = range(1, 6)
+# print(type(ran))
+# numbers = list(ran)
+# print(type(numbers))
+# print(numbers)
+
+# for i in numbers:
+#     i *= 2
+#     print(i)
+
+# colors = ['red', 'green', 'blue']
+# for e in colors:
+#     print(e)
+
+# for e in colors:
+#     print(e*2)
+
+# colors.append('gray')   # добавить в конец
+# print(colors == ['red', 'green', 'blue', 'gray'])
+# colors.remove('red')
+
+
+
+#  ФУНКЦИИ
+
+def f(x):
+    if x == 1:
+        return 'Целое'
+    elif x == 2.3:
+        return 23
+    else:
+        return
+
+a = 2.3
+b = 1
+c = 2
+print(f(a))
+print(f(b))
+print(f(c))
+print(type(f(a)))
