@@ -38,3 +38,4 @@ print(text[6:-18])          #вывод символов с индексами �
 print(text[0:len(text):6])  #вывод от 0 до конца с шагом 6
 print(text[::6])            #то же стр38
 text = text[2:9] + text[-5] + text[:2] #-херня, шинимахерня   -херня, ващехерня, ващехерня
+# Forever young, i wanna be forever young, do you really wanna live forever, forever, and ever (Daniil, Daniel, Danila)
