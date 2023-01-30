@@ -192,6 +192,16 @@
 # else:
 #     print(b)
 
+# count1 = man1 // 2 if man1 % 2 == 0 else man1 // 2 + 1  #\
+# count2 = man1 // 2 if man1 % 2 == 0 else man1 // 2 + 1  # | ТЕРНАРНЫЙ ОПЕРАТОР - запись ветвления if-else в одну строку, если код каждой ветки занимает не более 1 строки
+# count3 = man1 // 2 if man1 % 2 == 0 else man1 // 2 + 1  #/
+
+# year = int(input('Введите год: '))
+# if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:    # Если есть несколько условий, то приоритет будет у and, затем or.
+#     print('YES')                                            # Можно менять приоритетность выделяя скобками более приоритетное условие, например if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
+# else:
+#     print('NO')
+
 # username = input('Input name: ')
 # if username == 'Masha':
 #     print('Ura, eto zhe MASHA!')
