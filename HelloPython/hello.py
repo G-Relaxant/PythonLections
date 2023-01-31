@@ -228,6 +228,15 @@ inverted = 0
 #     print('hvatit )')
 # print(inverted)
 
+# idx = 0
+# while idx <= 9:
+#     idx += 1
+#     if idx == 7:
+#         break       #оператор Break останавливает цикл
+#     if idx == 2:
+#         continue    #оператор Continue останавливает(пропускает) текущий виток
+#     print(idx)
+
 # for i in 1,2,3,4,5:
 #     print(i**2)
 
@@ -244,6 +253,9 @@ inverted = 0
 
 # for i in range(1, 16, 2):
 #     print(i)
+
+# for idx in range(3, 10, 2):
+#     print(idx)
 
 # for i in 'John Varvatos Artisan':
 #     print(i)
